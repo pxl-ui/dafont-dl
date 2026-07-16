@@ -1,0 +1,29 @@
+{
+  "name": "dafont-dl",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Download fonts from dafont using the command line",
+  "main": "bin/cli.js",
+  "bin": {
+    "dafont-dl": "bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "dafont",
+    "fonts",
+    "cli"
+  ],
+  "author": "Aitor Llamas Jimenez <aitorllj93@gmail.com> (https://aitorllamas.com)",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "commander": "^15.0.0",
+    "extract-zip": "^2.0.1"
+  }
+}
